@@ -6,7 +6,6 @@ import (
 )
 
 // 参考此包的错误处理：
-
 func test1() error {
 	fmt.Println("test1")
 	stack := debug.Stack()
