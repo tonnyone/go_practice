@@ -16,8 +16,8 @@ type AB interface {
 func add(i, j AB) AB {
 	return nil
 }
-func add2[T AB](i, j A) T {
-	return nil
+func add2[T AB](i, j A) {
+	return
 }
 
 func test() any {

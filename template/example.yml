@@ -1,0 +1,37 @@
+name: 
+version: 0.1
+prefix: 
+
+input:
+  - name: url
+    on: 例如：
+    off: ""
+  - name: ak
+    on: ak
+  - name: sk
+    on: sk
+  - name: version
+    on: v6
+  - name: encryed
+    on: 加密url
+    off: ""
+tickets:
+  - code: 
+    type: eeconf_v2
+    name: 
+    template: |
+      AK: "[[[.ak]]]"
+      SK: "[[[.sk]]]"
+      BaseUrl: "[[[.wpsurl]]]"
+  - code: 
+    type: 
+    name: 
+    template: |
+      WPS:
+        DocsVersion: "[[[.version]]]"
+    psms:
+delpsm:
+
+subs:
+  name: 加减密
+  prefix: encrypt

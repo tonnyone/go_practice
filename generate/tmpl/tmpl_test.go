@@ -56,7 +56,7 @@ type ToDo struct {
 func TestHtmlTodo(t *testing.T) {
 	// Files are provided as a slice of strings.
 	paths := []string{
-		"/Users/bytedance/Develop/go_practice/generate/tmpl/todo.tmpl",
+		"~/Develop/go_practice/generate/tmpl/todo.tmpl",
 	}
 	todos := ToDo{
 		User: "test1",

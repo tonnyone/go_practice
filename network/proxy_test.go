@@ -3,12 +3,13 @@ package network
 import (
 	"context"
 	"fmt"
-	"golang.org/x/net/proxy"
 	"net"
 	"net/http"
 	"net/url"
 	"os"
 	"testing"
+
+	"golang.org/x/net/proxy"
 )
 
 // http 代理测试
